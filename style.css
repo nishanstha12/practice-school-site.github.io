@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    background-color: rgb(239,239,239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shoes{
+    height: 75%;
+    width: 33%;
+    background-image: linear-gradient(45deg,#0136af,#22abfa);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.shoes h1{
+    color: rgba(240, 248, 255, 0.479);
+    font-size: 185px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.5;
+    padding: 0px 5px 0 12px;
+    position: fixed;
+}
+.items{
+    width: 600px;
+
+margin-right: 150px;
+overflow-x: visible;
+}
+.shoes img{
+    width: 600px;
+    height: 390px;
+    left: 85px;
+    position: absolute;
+    transform: rotate(-20deg); 
+    margin-top: 95px;
+}
+.shoes-details{
+    height: 90%;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+padding:0 45px;
+}
+.heading{
+display: flex;
+margin-top: 70px;
+}
+.new{
+    background-color: #2663f1;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 8px;
+    height: 35px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.men{
+   margin: 10px 0;
+    font-size: 25px;
+}
+.pro-info{
+    margin: 10px 0;
+    font-size: 22px; 
+}
+.info{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.btns button{
+    height: 22px;
+    width: 22px;
+    border-radius: 12px;
+    border: none;
+   margin: 10px 0 10px 10px;
+}
+#blue{
+    background-color: blue;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#orange{
+    background-color: orangered;
+}
+#black{
+    background-color: black;
+}
+.size button{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(202, 202, 201, 0.534);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer button{
+    height: 48.8px;
+    width: 194px;
+    background-color: #2663f1;
+    color: aliceblue;
+    font-size: 18px;
+    border: none;
+}
